@@ -15,7 +15,7 @@ import java.nio.charset.StandardCharsets;
 
 public class EmailDatasource implements Datasource {
 
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "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";
 
     @Override
     public Integer getCompatibility(String sign1, String sign2) {

@@ -16,7 +16,7 @@ export function OpeningScreen() {
         {" "}
         <a>
           {" "}
-          <img src="src/images/arrow.svg" width={180} />
+          <img src="src/arrow.svg" width={180} />
         </a>
       </button>
     </div>

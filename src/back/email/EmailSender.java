@@ -17,7 +17,7 @@ public class EmailSender {
 
   // Set your Gmail username and password
   private static final String USERNAME = "urstarcrossedlover@gmail.com";
-  private static final String PASSWORD = "blxu mapw abvs wwem";
+  private static final String PASSWORD = "kaqw txpj casw lufj";
 
   public static void sendEmail(String to, String body) {
 
