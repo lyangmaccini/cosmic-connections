@@ -21,7 +21,7 @@ export function EmailBox({
       <input
       id="email-box"
         type="text"
-        className="player-input-box"
+        className="birthday-input-box"
         value={value}
         placeholder="iloveyou@email.com"
         onChange={(ev) => handleInputChange(ev.target.value)}

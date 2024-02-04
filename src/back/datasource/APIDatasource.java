@@ -6,12 +6,7 @@ import okio.Okio;
 import src.back.exception.DatasourceException;
 import java.io.*;
 
-/**
- * This is the APIDatasource class. It is responsible for creating the graph and handling
- * the logic of searching the graph.
- */
 public class APIDatasource implements Datasource {
-    //define hashmap that holds a players name to its node
     private Compatibility compatibilities;
 
     public APIDatasource() {
