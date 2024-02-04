@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/x-icon" href="logo.svg">
+    <link rel="stylesheet" href="/src/front/styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic Connections</title>
+  </head>
+  <body>
+    <div class="bar">
+      <a id="corner-logo">
+        <img
+          id="star-logo"
+          src="logo-fixed.svg"
+        />
+        <p id="star-logo-text"></p>
+      </a>
+      <dialog class="popup" id="popup">
+        <p class="popup-text">
+          Find your lover in the stars
+        </p>
+      </dialog>
+    </div>
+      <div id="bar-buttons">
+        <button id="abt-button">About</button>
+      </div>
+    </div>
+    <div id="root"></div>
+        <a id="stars-moon-thing">
+  <img
+      id="stars-moon"
+      src="src/front/stars-moon.svg"
+  />
+  <img id="get-started-background" src="get-started-bg.svg" />
+          <img
+              id="moon-heart"
+              src="src/moon-heart.svg"
+          />
+
+</a>
+    <script type="module" src="/src/front/components/main.tsx"></script>
+
+    <script>
+      document
+        .getElementById("abt-button")
+        .addEventListener("click", function () {
+          var popup = document.getElementById("popup");
+          popup.open = !popup.open;
+        });
+    </script>
+  </body>
+</html>
+
+

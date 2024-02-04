@@ -1,0 +1,20 @@
+{
+  "c": {"aries": {"aries": 50, "taurus":  38, "gemini":  83, "cancer":  42, "leo":  97, "virgo":  63,
+    "libra":  85, "scorpio":  50, "sagittarius":  93, "capricorn":  47, "aquarius": 78, "pisces": 67},
+  "taurus": {"taurus":  65, "gemini": 33, "cancer":  97, "leo": 73, "virgo": 90,
+    "libra": 65, "scorpio": 88, "sagittarius": 30, "capricorn": 98, "aquarius": 58, "pisces": 85},
+  "gemini": {"gemini": 60, "cancer": 65, "leo": 88, "virgo": 68,
+    "libra": 93, "scorpio": 28, "sagittarius": 60, "capricorn": 68, "aquarius": 85, "pisces": 53},
+  "cancer": {"cancer": 75, "leo": 35, "virgo": 90,
+    "libra": 43, "scorpio": 94, "sagittarius": 53, "capricorn": 83, "aquarius": 27, "pisces": 98},
+  "leo": {"leo": 45, "virgo": 35,
+    "libra": 97, "scorpio": 58, "sagittarius": 93, "capricorn": 35, "aquarius": 68, "pisces": 38},
+  "virgo": { "virgo": 65,
+    "libra": 68, "scorpio": 88, "sagittarius": 48, "capricorn": 95, "aquarius": 30, "pisces": 88},
+  "libra": {"libra": 75, "scorpio": 35, "sagittarius": 73, "capricorn": 55, "aquarius": 90, "pisces": 88},
+  "scorpio": {"scorpio": 80, "sagittarius": 28, "capricorn": 95, "aquarius": 73, "pisces": 97},
+  "sagittarius": {"sagittarius": 45, "capricorn": 60, "aquarius": 90, "pisces": 63},
+  "capricorn": {"capricorn": 75, "aquarius": 68, "pisces": 88},
+  "aquarius": {"aquarius": 45, "pisces": 45},
+  "pisces": {"pisces": 60}}
+}

@@ -1,0 +1,510 @@
+@font-face {
+  font-family: 'Recursive Mono Casual Bold';
+  src: url('src/front/styles/fonts/RecursiveMonoCslSt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DM Sans Bold';
+  src: url('src/front/styles/fonts/DMSans_24pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('src/front/styles/fonts/DMSans_24pt-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070C2D;
+  display: grid;
+  font-family:Recursive Mono Casual Bold ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070C2D;
+  display: grid;
+  font-family: Recursive Mono Casual Bold ;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.bar {
+  width: 100%;
+  height: 15%;
+  background-color: #070C2D;
+  display: flex;
+  align-items: center;
+  font-size: 12vh;
+  padding: 0;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #070C2D;
+  z-index: 999;
+}
+#star-logo {
+  width: 150px;
+  margin: 0%;
+}
+#star-logo-text {
+  color: white;
+  margin-left: -36px;
+  margin-top: 10px;
+  font-size: xx-large;
+}
+#corner-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#middle-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#bar-buttons {
+  margin-right: 20px;
+}
+
+#abt-button {
+  margin: 30px;
+  color: #FFE8C7;
+  background-color: #070C2D;
+  font-family: Recursive Mono Casual Bold ;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  border: 2px;
+  border-style: solid;
+  border-color: #FFE8C7;
+  margin-bottom: 50px;
+}
+
+#open-screen {
+  margin-top: -10vh;
+  margin-left: 200px;
+  width: 1100px;
+  color: white;
+  text-align: center
+}
+
+#find-out-button {
+  margin: 30px;
+  color: #FFE8C7;
+  background-color: #6E7587;
+  font-family: "DM Sans Bold" ;
+  font-size: 32px;
+  border-radius: 75px;
+  width: 300px;
+  height: 66px;
+  border: 2px;
+  margin-left: 200px;
+  z-index: 200;
+  pointer-events: inherit;
+  position:relative;
+}
+
+#find-out-button:hover {
+  background-color:#97A0B7;
+  cursor: pointer;
+
+}
+
+#love-question {
+  color: white;
+  margin-left: 180px;
+  font-size: xxx-large;
+
+}
+
+#calc-button:hover {
+  cursor: pointer;
+}
+#abt-button:hover {
+  background-color: #FFE8C7;
+  color: #070C2D;
+  cursor: pointer;
+}
+
+#root {
+  margin-top: 110px;
+  width: 100%;
+}
+
+#app {
+  display: flex;
+  width: 100%;
+  align-items: start;
+
+  background-color: #070C2D;
+  height: 300vh;
+}
+
+#history {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: rgb(240, 239, 239);
+  height: auto;
+  max-height: 81.5vh;
+  border-radius: 10px;
+  overflow: scroll;
+  align-items: center;
+  color: #070C2D;
+  margin: 20px;
+}
+
+#history-header {
+  position: sticky;
+  top: 0;
+}
+
+.history-link {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #070C2D;
+  background-color: rgb(216, 214, 214);
+  cursor: pointer;
+  color: #070C2D;
+  font-family: "DM Sans" ;
+  font-size: medium;
+  margin: 10px;
+  text-align: left;
+}
+
+.input-header {
+  margin-bottom: 10px;
+  color: #FFE8C7;
+  font-weight: bold;
+}
+
+#input-output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #070C2D;
+  height: 89.4vh;
+  width: 100%;
+  margin-left: 20vh;
+}
+
+#stars-moon-thing {
+  margin-top: -370vh;
+  width: 30vh;
+  height: 30vh;
+}
+
+#player-input {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  align-items: center;
+  border: 2.5px;
+  border-style: solid;
+  border-color: #FFE8C7;
+  border-radius: 10px;
+  width: 110vh;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-left: -150vh;
+  margin-top: 220vh;
+}
+
+#first-player-input {
+  margin: 10px 50px;
+}
+
+#second-player-input {
+  margin: 10px 50px;
+}
+
+#submit-button {
+  margin: 30px;
+  color: #FFE8C7;
+  background-color: #6E7587;
+  font-family: "DM Sans Bold" ;
+  font-size: 32px;
+  border-radius: 75px;
+  width: 550px;
+  height: 66px;
+  border: 2px;
+
+  border-color: #6E7587;
+  z-index: 200;
+  pointer-events: inherit;
+  position:relative;
+}
+
+#submit-button:hover {
+  background-color: #97A0B7;
+  color: white;
+  cursor: pointer;
+}
+
+#players {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#player-one-output {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#player-one-logo {
+  width: 175px;
+}
+
+#player-two-output {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#player-two-logo {
+  width: 175px;
+}
+
+.player-name {
+  color: orangered;
+  font-size: large;
+  text-decoration: underline;
+}
+
+#results {
+  height: 60%;
+  overflow: scroll;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connecting-player-div {
+  height: auto;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  color: rgb(211, 211, 211);
+}
+
+#popup {
+  height: 100px;
+  width: 400px;
+  text-align: center;
+}
+
+#popup-text {
+  font-size: 12px;
+}
+
+#player-dropdown {
+  font-size: 12px;
+  max-height: 40px;
+  outline: 1pt;
+  overflow: scroll;
+  cursor: pointer;
+}
+
+#bottom-bar {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #070C2D;
+  justify-content: center;
+  color: #070C2D;
+  font-size: larger;
+}
+
+#sign-responses {
+  color: white;
+  margin-top: 120vh;
+  margin-left: -75vh;
+  width: 100%;
+}
+
+#small-sign-header {
+  color: #cacaca;
+  width:300px;
+  font-size: 28px;
+  margin-top: -44vh;
+  position: absolute;
+  margin-left: -4vh;
+
+  font-family: "Recursive Mono Casual Bold";
+}
+
+#sign-header {
+  color: #FFE8C7;
+  width:700px;
+  font-size: 50px;
+  margin-top: -39vh;
+  margin-left: -4vh;
+  position: absolute;
+  font-family: "DM Sans Bold";
+
+}
+
+#find-your-sign{
+  position: absolute;
+  color: #FFFFFF;
+  margin-left: -690px;
+  width:700px;
+  font-size: 50px;
+  font-family: "DM Sans Bold";
+  margin-top: -200px;
+
+}
+
+#get-started{
+  position: absolute;
+  color: #cacaca;
+  margin-left: -690px;
+  width:300px;
+  font-size: 28px;
+  margin-top: -210px;
+  font-family: "Recursive Mono Casual Bold";
+}
+
+#sign1 {
+  position: absolute;
+  margin-top: -30vh;
+}
+
+#sign1-text {
+  position: absolute;
+  font-size: 4vh;
+  text-align: center;
+}
+
+#sign1-box {
+    margin-top: -5vh;
+    margin-left: 15vh
+}
+
+#sign2 {
+  position: absolute;
+  margin-top: -30vh;
+  margin-left: 50vh;
+
+}
+
+#sign2-text {
+  position: absolute;
+  margin-top: -1vh;
+  margin-left: 7vh;
+  text-align: center;
+  font-size: 4vh;
+}
+
+#result-message{
+  position: absolute;
+  color: #FFE8C7;
+  margin-left: -155vh;
+  width:170vh;
+  font-size: 5vh;
+  margin-top: 310vh;
+
+  font-family: "Recursive Mono Casual Bold";
+}
+
+#numb-end{
+  position:absolute;
+  color: #070C2D;
+  font-size: 7vh;
+  margin-top:  335vh;
+  margin-left: -99vh;
+  width:10vh;
+  text-align: right;
+
+}
+#comp{
+  position:absolute;
+  color: #070C2D;
+  font-size: 7vh;
+  margin-top:  343vh;
+  margin-left: -117vh;
+  width:10vh;
+  text-align: right;
+
+}
+
+#reveal-button {
+  margin: 30px;
+  color: #FFE8C7;
+  background-color: #6E7587;
+  font-family: "DM Sans Bold" ;
+  font-size: 18px;
+  border-radius: 75px;
+  width:200px;
+  height: 40px;
+  border: 2px;
+  border-color: #6E7587;
+  z-index: 200;
+  pointer-events: inherit;
+  position:relative;
+  margin-left: 28vh;
+  margin-top: 20vh;
+}
+
+#reveal-button:hover {
+  background-color: #97A0B7;
+  color: white;
+  cursor: pointer;}
+
+#moon-heart{
+  margin-top:  200vh;
+  margin-left: 10vh;
+  width: 170vh;
+  height: 150vh;
+}
+.menu-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+  margin-top: -9vh;
+  margin-right: 2vh;
+}
+
+#email-button {
+  margin: 30px;
+  color: #FFE8C7;
+  background-color: #6E7587;
+  font-family: "DM Sans Bold" ;
+  font-size: 32px;
+  border-radius: 75px;
+  width: 300px;
+  height: 66px;
+  border: 2px;
+  margin-top: 385vh;
+  margin-left: -117vh;
+
+  border-color: #6E7587;
+  z-index: 200;
+  pointer-events: inherit;
+  position:relative;
+}
+#email-button:hover {
+  background-color:#97A0B7;
+  cursor: pointer;
+
+}
