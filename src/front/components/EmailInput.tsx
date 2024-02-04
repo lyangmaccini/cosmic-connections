@@ -12,28 +12,32 @@ interface EmailInputProps {
   email: string;
   setEmail: Dispatch<SetStateAction<string>>;
 
+  message: string;
+  setMessage: Dispatch<SetStateAction<string>>;
+
 }
 
 export function EmailInput(props: EmailInputProps) {
   function handleSubmit() {
     sendEmail(props.name, props.email);
+    props.setMessage("Email sent! <3");
   }
   return (
-    <div aria-label="email-input" id="player-input">
-      <div id="first-player-input">
+    <div aria-label="email-input" id="birthday-input">
+      <div id="first-birthday-input">
         <legend className="input-header">your name</legend>
         <NameInput
           value={props.name}
           setValue={props.setName}
-          ariaLabel={"Player 2 input"}
+          ariaLabel={"Birthday 2 input"}
         />
       </div>
-      <div id="second-player-input">
+      <div id="second-birthday-input">
         <legend className="input-header">lover's email</legend>
         <EmailBox
           value={props.email}
           setValue={props.setEmail}
-          ariaLabel={"Player 2 input"}
+          ariaLabel={"Birthday 2 input"}
         />
       </div>
       <button id="email-submit-button" onClick={() => handleSubmit()}>
@@ -54,11 +58,11 @@ export function EmailInput(props: EmailInputProps) {
           <div>
             <a>
               {" "}
-              <img id="email-background" src="email.svg" width={1000}/>{" "}
+              <img id="email-background" src="email.svg" width={1000} />{" "}
             </a>
           </div>
+          <div id="email-sent">{props.message}</div>
         </div>
-
       </div>
     </div>
   );

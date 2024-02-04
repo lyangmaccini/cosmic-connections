@@ -207,7 +207,7 @@ a {
   height: 30vh;
 }
 
-#player-input {
+#birthday-input {
   display: flex;
   flex-direction: row;
   height: 120px;
@@ -223,14 +223,14 @@ a {
   margin-top: 220vh;
 }
 
-#first-player-input {
+#first-birthday-input {
   margin: 10px 50px;
   margin-left: -70vh;
   position: absolute;
   font-family: "DM Sans";
 }
 
-#second-player-input {
+#second-birthday-input {
   margin: 10px 50px;
   margin-right: 20vh;
   position: absolute;
@@ -272,25 +272,6 @@ a {
   align-items: center;
 }
 
-.connecting-player-div {
-  height: auto;
-  width: 500px;
-  padding: 10px;
-  margin: 10px;
-  border-style: solid;
-  border-radius: 10px;
-  color: rgb(211, 211, 211);
-}
-
-#popup {
-  height: 100px;
-  width: 400px;
-  text-align: center;
-}
-
-#popup-text {
-  font-size: 12px;
-}
 
 #bottom-bar {
   height: 100px;
@@ -606,3 +587,9 @@ a {
   margin-top: -20vh;
 }
 
+#email-sent {
+  margin-top: 28vh;
+  font-family: "Recursive Mono Casual Bold";
+  color: #FFE8C7;
+
+}

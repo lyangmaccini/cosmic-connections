@@ -20,7 +20,7 @@ export function ControlledInput({
     <div>
       <input
         type="text"
-        className="player-input-box"
+        className="date-input-box"
         value={value}
         placeholder="MM/DD/YYYY"
         onChange={(ev) => handleInputChange(ev.target.value)}
