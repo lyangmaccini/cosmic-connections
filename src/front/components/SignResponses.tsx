@@ -1,15 +1,13 @@
 import { Dispatch, SetStateAction, useState } from "react";
 import "../styles/style.css";
-import { HistoryButton } from "./HistoryButton";
-// import abc from "down-arrow.png";
 
 interface SignResponsesProps {
   sign1: string;
   setSign1: Dispatch<SetStateAction<string>>;
-
   sign2: string;
   setSign2: Dispatch<SetStateAction<string>>;
 }
+
 export function SignReponses(props: SignResponsesProps) {
   let sign1 = "src/images/" + props.sign1 + ".svg";
   let sign2 = "src/images/" + props.sign2 + ".svg";
@@ -39,7 +37,6 @@ export function OpeningScreen() {
   function handleClick() {
     window.scrollBy(0, 700);
   }
-  // returns two string inputs for the two different players
   return (
     <div>
       <div id="love-question">

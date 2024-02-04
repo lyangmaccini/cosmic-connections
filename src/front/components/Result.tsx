@@ -1,9 +1,11 @@
 import "../styles/style.css";
 import { Dispatch, SetStateAction } from "react";
+
 interface SignResponsesProps {
   rating: string;
   setRating: Dispatch<SetStateAction<string>>;
 }
+
 export function Result(props: SignResponsesProps) {
     let message = "";
   if (props.rating == "") {

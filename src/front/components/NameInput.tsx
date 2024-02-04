@@ -21,7 +21,7 @@ export function NameInput({
       <input
       id="name-input"
         type="text"
-        className="player-input-box"
+        className="name-input-box"
         value={value}
         placeholder="Name"
         onChange={(ev) => handleInputChange(ev.target.value)}

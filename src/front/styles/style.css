@@ -112,22 +112,10 @@ a {
   position:relative;
 }
 
-
-
 #love-question {
   color: #FFE8C7;
   margin-left: 180px;
   font-size: xxx-large;
-
-}
-
-#calc-button:hover {
-  cursor: pointer;
-}
-#abt-button:hover {
-  background-color: #FFE8C7;
-  color: #070C2D;
-  cursor: pointer;
 }
 
 #root {
@@ -139,55 +127,16 @@ a {
   display: flex;
   width: 100%;
   align-items: start;
-
   background-color: #070C2D;
   height: 300vh;
 }
+
 #app2 {
   display: flex;
   width: 10%;
   align-items: start;
-
   background-color: #070C2D;
   height: 89.4vh;
-}
-
-#history {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  background-color: rgb(240, 239, 239);
-  height: auto;
-  max-height: 81.5vh;
-  border-radius: 10px;
-  overflow: scroll;
-  align-items: center;
-  color: #070C2D;
-  margin: 20px;
-}
-
-#history-header {
-  position: sticky;
-  top: 0;
-}
-
-.history-link {
-  border-style: solid;
-  border-radius: 10px;
-  border-color: #070C2D;
-  background-color: rgb(216, 214, 214);
-  cursor: pointer;
-  color: #070C2D;
-  font-family: "DM Sans" ;
-  font-size: medium;
-  margin: 10px;
-  text-align: left;
-}
-
-.input-header {
-  margin-bottom: 10px;
-  color: #FFE8C7;
-  font-weight: bold;
 }
 
 #input-output {
@@ -249,7 +198,6 @@ a {
   border: 2px;
   margin-left: 80vh;
   position: absolute;
-
   border-color: #6E7587;
   z-index: 200;
   pointer-events: inherit;
@@ -262,7 +210,6 @@ a {
   cursor: pointer;
 }
 
-
 #results {
   height: 60%;
   overflow: scroll;
@@ -271,7 +218,6 @@ a {
   flex-direction: column;
   align-items: center;
 }
-
 
 #bottom-bar {
   height: 100px;
@@ -309,7 +255,6 @@ a {
   margin-left: -4vh;
   position: absolute;
   font-family: "DM Sans Bold";
-
 }
 
 #find-your-sign{
@@ -321,7 +266,6 @@ a {
   text-align: right;
   font-family: "DM Sans Bold";
   margin-top: -30vh;
-
 }
 
 #get-started{
@@ -351,12 +295,10 @@ a {
     margin-left: 15vh
 }
 
-
 #sign2 {
   position: absolute;
   margin-top: -25vh;
   margin-left: 58vh;
-
 }
 
 #sign2-text {
@@ -366,7 +308,6 @@ a {
   text-align: center;
   font-size: 4vh;
 }
-
 
 #result-message{
   position: absolute;
@@ -387,8 +328,8 @@ a {
   width:10vh;
   text-align: right;
   font-family: "DM Sans";
-
 }
+
 #comp{
   position:absolute;
   color: #070C2D;
@@ -398,7 +339,6 @@ a {
   width:10vh;
   text-align: right;
   font-family: "DM Sans";
-
 }
 
 #reveal-button {
@@ -430,13 +370,6 @@ a {
   width: 170vh;
   height: 150vh;
 }
-.menu-icon {
-  color: white;
-  cursor: pointer;
-  font-size: 35px;
-  margin-top: -9vh;
-  margin-right: 2vh;
-}
 
 #email-button {
   margin: 30px;
@@ -450,16 +383,15 @@ a {
   border: 2px;
   margin-top: 385vh;
   margin-left: -117vh;
-
   border-color: #6E7587;
   z-index: 300;
   pointer-events: inherit;
   position:relative;
 }
+
 #email-button:hover {
   background-color:#97A0B7;
   cursor: pointer;
-
 }
 
 #email-output {
@@ -476,7 +408,7 @@ a {
 }
 
 #email-input {
-    display: flex;
+  display: flex;
   flex-direction: row;
   height: 120px;
   align-items: center;
@@ -490,7 +422,6 @@ a {
   margin-top: 220vh;
 }
 
-
 #email-submit-button {
   margin: 30px;
   color: #FFE8C7;
@@ -503,7 +434,6 @@ a {
   border: 2px;
   margin-left: 80vh;
   position: absolute;
-
   border-color: #6E7587;
   z-index: 200;
   pointer-events: inherit;
@@ -515,7 +445,6 @@ a {
   color: white;
   cursor: pointer;
 }
-
 
 #notice {
   font-family: "DM Sans Bold";
@@ -560,9 +489,6 @@ a {
   margin-top: 24vh;
   margin-left: -13vh;
   font-family: "DM Sans";
-
-
-
 }
 
 #email-background {
@@ -577,8 +503,9 @@ a {
   pointer-events: inherit;
   position:relative;
 }
+
 #name-input {
-    z-index: 200;
+  z-index: 200;
   pointer-events: inherit;
   position:relative;
 }
@@ -591,5 +518,4 @@ a {
   margin-top: 28vh;
   font-family: "Recursive Mono Casual Bold";
   color: #FFE8C7;
-
 }

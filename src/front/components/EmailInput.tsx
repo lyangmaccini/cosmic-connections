@@ -1,20 +1,16 @@
 import "../styles/style.css";
 import { Dispatch, SetStateAction, useState } from "react";
-import { ControlledInput } from "./ControlledInput";
-import { makeConnection, sendEmail } from "./ServerAccess";
+import { sendEmail } from "./ServerAccess";
 import { NameInput } from "./NameInput";
 import { EmailBox } from "./EmailBox";
 
 interface EmailInputProps {
   name: string;
   setName: Dispatch<SetStateAction<string>>;
-
   email: string;
   setEmail: Dispatch<SetStateAction<string>>;
-
   message: string;
   setMessage: Dispatch<SetStateAction<string>>;
-
 }
 
 export function EmailInput(props: EmailInputProps) {

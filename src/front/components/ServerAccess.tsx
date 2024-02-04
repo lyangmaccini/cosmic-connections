@@ -4,15 +4,12 @@ import "../styles/style.css";
 interface ServerAccessProps {
   sign1: string;
   setSign1: Dispatch<SetStateAction<string>>;
-
   sign2: string;
   setSign2: Dispatch<SetStateAction<string>>;
-
   rating: string;
   setRating: Dispatch<SetStateAction<string>>;
 }
 
-// makes the connectin between the two players and gets the count of connections
 export async function makeConnection(
   Date1: string,
   Date2: string,
