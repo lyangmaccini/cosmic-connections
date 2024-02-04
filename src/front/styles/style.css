@@ -12,10 +12,11 @@
 }
 @font-face {
   font-family: 'DM Sans';
-  src: url('/src/front/styles/fonts/DMSans_24pt-Black.ttf') format('truetype');
-  font-weight: normal;
+  src: url('/src/front/styles/fonts/DMSans_18pt-SemiBold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -226,12 +227,14 @@ a {
   margin: 10px 50px;
   margin-left: -70vh;
   position: absolute;
+  font-family: "DM Sans";
 }
 
 #second-player-input {
   margin: 10px 50px;
   margin-right: 20vh;
   position: absolute;
+  font-family: "DM Sans";
 }
 
 #submit-button {
@@ -387,7 +390,7 @@ a {
 #result-message{
   position: absolute;
   color: #FFE8C7;
-  margin-left: -160vh;
+  margin-left: -147vh;
   width:170vh;
   font-size: 5vh;
   margin-top: 313vh;
@@ -403,7 +406,7 @@ a {
   margin-left: -104vh;
   width:10vh;
   text-align: right;
-  font-family: DM Sans;
+  font-family: "DM Sans";
 
 }
 #comp{
@@ -414,7 +417,7 @@ a {
   margin-left: -111vh;
   width:10vh;
   text-align: right;
-  font-family: DM Sans;
+  font-family: "DM Sans";
 
 }
 
@@ -442,7 +445,7 @@ a {
   cursor: pointer;}
 
 #moon-heart{
-  margin-top:  90vh;
+  margin-top:  85vh;
   margin-left: 10vh;
   width: 170vh;
   height: 150vh;
@@ -566,7 +569,7 @@ a {
 
 #love-letter-button {
   position: absolute;
-  margin-top: 11vh;
+  margin-top: 16vh;
   margin-left: 15vh;
 }
 
@@ -574,7 +577,7 @@ a {
   color: white;
   width: 35vh;
   font-size: 20px;
-  margin-top: 20vh;
+  margin-top: 24vh;
   margin-left: -13vh;
   font-family: "DM Sans";
 
